@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(AddonTemplate.MODID)
 public class AddonTemplate {
-    public static final String MODID = "addontemplate";
+    public static final String MODID = "furnaceenginereturns";
     private static final NonNullSupplier<CreateRegistrate> registrate = CreateRegistrate.lazy(AddonTemplate.MODID);
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
